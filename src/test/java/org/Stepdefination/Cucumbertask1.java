@@ -19,8 +19,7 @@ public class Cucumbertask1 extends Baseclass {
 	@When("User has to pass invalid username in email field")
 	public void user_has_to_pass_invalid_username_in_email_field() {
 	    d.findElement(By.id("email")).sendKeys("ramesh");
-	    Assert a=new Assert();
-	}
+	   	}
 	@When("User has to pass the invalid password in password field")
 	public void user_has_to_pass_the_invalid_password_in_password_field() {
 		d.findElement(By.id("pass")).sendKeys("123456");
